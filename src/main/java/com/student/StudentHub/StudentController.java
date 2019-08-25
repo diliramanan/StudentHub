@@ -24,7 +24,7 @@ public class StudentController {
 	@GetMapping("/fetch") 
 	public ResponseEntity<List<StudentEntity>> studentDetails() {
 		List<StudentEntity> studentDetails = studentService.getAllDetails();
-		return new ResponseEntity<List<StudentEntity>>(studentDetails, HttpStatus.OK);
+		return new ResponseEntity<List<StudentEntity>>(studentDetails, HttpStatus.OK); 
 	}
 
 	@PostMapping("/insert")
