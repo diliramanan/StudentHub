@@ -1,4 +1,4 @@
-package com.student.StudentHub;
+package com.student.StudentHub.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
